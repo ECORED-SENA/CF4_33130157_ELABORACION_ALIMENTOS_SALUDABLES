@@ -131,9 +131,70 @@
 
     Separador
 
-    .titulo-segundo.color-acento-contenido(data-aos='fade-right')#t_1_1
-      h2 1.1 Verduras
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')#t_1_2
+      h2 1.2 Verduras
 
+    p(data-aos='fade-left').mb-4 Las verduras son hortalizas cuya parte comestible es verde y presentan gran variedad de formas. Al igual que las frutas, las verduras se caracterizan por su bajo contenido de grasa y su alto contenido de agua. En este grupo también se incluyen guisantes y legumbres. La parte comestible de las verduras es el tallo o las hojas. 
+
+    p(data-aos='fade-left').mb-5 #[strong Las verduras se clasifican según su parte comestible:]
+
+    .row.justify-content-center.align-items-stretch.mb-4
+      .col-lg-3.mb-4
+        .tarjeta--boton.bg-color-2.p-4.text-center.h-100(data-aos="flip-up")
+          img(src='@/assets/curso/tema1/24.png', alt='', style="max-width: 272px").mx-auto.mb-4
+          .bg-color-11.d-inline-block.px-3.py-2.mb-3
+            h5.text-center.mb-0.text-white #[strong Hojas y tallos]
+          p.text-center Perejil, brócoli, apio, col, acelga, lechuga, espinaca, etc. 
+
+      .col-lg-3.mb-4
+        .tarjeta--boton.bg-color-2.p-4.text-center.h-100(data-aos="flip-up")
+          img(src='@/assets/curso/tema1/25.png', alt='', style="max-width: 272px").mx-auto.mb-4
+          .bg-color-11.d-inline-block.px-3.py-2.mb-3
+            h5.text-center.mb-0.text-white #[strong Frutos]
+          p.text-center Calabaza, tomate, pepino, pimientos, berenjena.
+
+      .col-lg-3.mb-4
+        .tarjeta--boton.bg-color-2.p-4.text-center.h-100(data-aos="flip-up")
+          img(src='@/assets/curso/tema1/26.png', alt='', style="max-width: 272px").mx-auto.mb-4
+          .bg-color-11.d-inline-block.px-3.py-2.mb-3
+            h5.text-center.mb-0.text-white #[strong Legumbres frescas o verdes]
+          p.text-center Habas, guisantes, judías verdes. 
+
+
+      .col-lg-3.mb-4
+        .tarjeta--boton.bg-color-2.p-4.text-center.h-100(data-aos="flip-up")
+          img(src='@/assets/curso/tema1/27.png', alt='', style="max-width: 272px").mx-auto.mb-4
+          .bg-color-11.d-inline-block.px-3.py-2.mb-3
+            h5.text-center.mb-0.text-white #[strong Raíces]
+          p.text-center Zanahoria, rábano, remolacha, nabo 
+
+
+    p(data-aos='fade-right').mb-4 #[strong Los componentes de las verduras son:]
+
+
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.bg-color-12.p-5
+        img(src='@/assets/curso/tema1/28.png', alt='').mx-auto.mb-4
+        .bg-color-1.d-inline-block.px-3.py-2.mb-3
+          h5.text-center.mb-0 Carbohidratos
+        p Algunas verduras tienen niveles más altos de carbohidratos que las frutas. Un ejemplo de ello son la papa, el maíz y los frijoles, ya que contienen almidones que, a medida que maduran, se convierten en hidratos de carbono.
+
+      .col-md.tarjeta.bg-color-8.p-5
+        img(src='@/assets/curso/tema1/29.png', alt='').mx-auto.mb-4
+        .bg-color-1.d-inline-block.px-3.py-2.mb-3
+          h5.text-center.mb-0 Vitaminas y minerales
+        p Las verduras son más ricas en estos compuestos que las frutas. Las verduras delgadas y de hojas verde oscuro son más ricas en hierro, riboflavina, ácido ascórbico y caroteno (provitamina A).
+
+    .titulo-tres.mb-4(data-aos="flip-up").mb-5
+      h4 Adecuación de vegetales 
+
+    p(data-aos='fade-left').mb-5 Las partes de las verduras destinadas al consumo humano crecen en o cerca del suelo, por lo que su lavado es indispensable antes de ser procesadas. Esto elimina agentes contaminantes como tierra y microorganismos. Se recomienda utilizar agua tibia para facilitar la eliminación de la tierra adherida a la superficie, y, en ocasiones, es necesario el uso de cepillos para lavar los vegetales. 
+
+
+    .titulo-tres.mb-4(data-aos="flip-up").mb-5
+      h4 Métodos de cocción 
+
+    p(data-aos='fade-left').mb-5  Las verduras se cocinan para modificar su textura y sabor, además de eliminar los microorganismos presentes en su superficie. Varios factores influyen en la elección del método de cocción, entre ellos la temperatura. A mayor temperatura, se produce la desnaturalización de algunos compuestos, como las vitaminas y minerales de las verduras. 
 </template>
 
 <script>
