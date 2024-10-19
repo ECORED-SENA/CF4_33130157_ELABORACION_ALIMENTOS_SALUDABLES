@@ -2,19 +2,396 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 50%
+    right: 80%
   &-2
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 28%
+    right: 10%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 65%
+    right: 20%
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+
+.banner-principal__row .banner-principal__img
+  width: 460px
+  @media screen and ( max-width: $bp-max-lg )
+    width: 400px
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.png") !important
+
+.banner-interno__titulo__icono i
+  color: #fff !important
+// Shadows
+.shadow
+  &-soft
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+  &-top-left-right
+    box-shadow: -4px 0 6px -2px rgba(0, 0, 0, 0.1), 4px 0 6px -2px rgba(0, 0, 0, 0.1)
+
+.titulo-principal__numero span
+  color: white !important
+
+.brounded
+  border-radius: 15px
+
+.brounded-xs
+  border-radius: 7px
+
+.brounded-left-md
+  @media screen and (max-width: $bp-min-md)
+    border-top-left-radius: 15px
+    border-bottom-left-radius: 15px
+
+.brounded-x
+  border-top-left-radius: 15px
+  border-top-right-radius: 15px
+
+.brounded-right
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 15px
+
+.brounded-md
+  @media screen and (max-width: $bp-min-md)
+    border-radius: 15px !important
+
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-color
+  &-1
+    background-color: #FED57B  !important
+  &-primario
+    background-color: $color-primario
+    color: #fff
+  &-acento-contenido
+    background-color: $color-acento-contenido
+  &-2
+    background-color: #F3FAE9 
+  &-3
+    background-color: #E8F5D5
+  &-4
+    background-color: #B80707
+  &-5 
+    background-color: #E0ECF9
+  &-6
+    background-color: #B4D1F0
+  &-7
+    background-color: #C6E697
+  &-8 
+    background-color: #FEEEC9
+  &-9
+    background-color: #5B0202
+  &-10  
+    background-color: #E7F2D6
+  &-acento-botones
+    background-color: $color-acento-botones
+    color: white
+  &-secundario
+    background-color: $color-secundario
+  &-white
+    background-color: white !important
+
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg/bg1.png") !important
+    background-position: top
+  &-2
+    background-image: url("../assets/curso/bg/bg2.png") !important
+    background-position: top
+  &-3
+    background-image: url("../assets/curso/bg/bg3.png") !important
+    background-position: bottom
+  &-4
+    background-image: url("../assets/curso/bg/bg4.png") !important
+    background-position: top
+  &-5
+    background-image: url("../assets/curso/bg/bg5.png") !important
+  &-6
+    background-image: url("../assets/curso/bg/bg6.png") !important
+  &-4b
+    background-image: url("../assets/curso/bg/bg4.png") !important
+    background-position: bottom
+    max-height: 545px
+  &-7
+    background-image: url("../assets/curso/bg/bg7.png") !important
+    background-position: top
+  &-8
+    background-image: url("../assets/curso/bg/bg8.png") !important
+    background-position: top
+  &-9
+    background-image: url("../assets/curso/bg/bg9.png") !important
+    background-position: top
+  &-slyder
+    background-image: url("../assets/curso/bg/bg-slider.png") !important
+    background-position: top
+  &-gradiente
+    background: rgb(254, 213, 123)
+    background: linear-gradient(90deg, rgba(254, 213, 123,1) 53%, rgba(243, 250, 233,1) 53%)
+  &-icon-planta
+    background-image: url("../assets/curso/bullets/icon-planta.svg")
+    background-repeat: no-repeat
+    background-size: 105px 103px
+    background-position: right bottom
+
+// Title Styles
+.titulo-tres
+  position: relative
+  background: #B80707
+  border-radius: 15px
+  display: inline-block
+  padding: 0.5rem 1.4rem 0.5rem 68px
+
+  h3, h4
+    color: white
+    margin: 0
+    line-height: 110% !important
+    @media screen and (max-width: $bp-max-sm)
+      font-size: 0.99rem
+
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 52px
+    transform: translateX(12px)
+    background: url('../assets/curso/bullets/icon1.svg') transparent no-repeat bottom left
+
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  background-image: url(../assets/curso/bullets/arrow-white.svg)
+  color: white
+  opacity: 1
+
+.slyder-a__bullets__item
+  background-color: rgba($color-acento-contenido, 0.35)
+  border-color: rgba($color-acento-contenido, 0.35)
+
+.slyder-a__bullets__item--active
+  background-color: $color-acento-contenido !important
+
+
+// Slider Bullet Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+  .slyder-a__bullets__item
+    margin: 0 3px
+
+// Timeline Styles
+.linea-tiempo-c__header__item__year
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+  width: 90%
+  @media screen and (max-width: $bp-max-xl)
+    max-width: 70%
+
+// Estilos para botones de navegación y control
+.linea-tiempo-c__header__btn,
+.linea-tiempo-c__header__btn--left,
+.linea-tiempo-c__header__btn--right,
+.pasos-b__header__btn--left,
+.pasos-b__header__btn--right
+  background: $color-acento-botones
+  border: 0
+  color: #fff
+
+// Variables
+$custom-card-border-radius: 10px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FEEEC9
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 116px
+
+// Estilos
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease /* Duración y suavidad del efecto */
+  cursor: pointer
+  &:hover
+    transform: scale(1.05)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.custom-image-card-2
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  min-width: 190px
+  transition: transform 0.3s ease
+  &:hover
+    transform: scale(1.05)
+
+  &__image
+    height: 190px
+    width: 190px
+    object-fit: cover
+
+// Media queries para responsividad
+@media (max-width: 768px)
+  .custom-image-card
+    margin-bottom: 20px
+
+// Estilos
+.custom-image-card-3
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  transition: transform 0.3s ease /* Duración y suavidad del efecto */
+  cursor: pointer
+  &:hover
+    transform: scale(1.05)
+  &__image
+    height: 180px
+    object-fit: cover
+
+// Media queries para responsividad
+@media (max-width: 768px)
+  .custom-image-card-3
+    margin-bottom: 20px
+
+// Custom List Styles
+.custom-list
+  list-style-type: none
+  padding-left: 0
+  
+  li
+    position: relative
+    padding-left: 1.4rem
+    
+    &::before
+      content: url('../assets/curso/bullets/icon2.svg')
+      position: absolute
+      left: 0
+      top: 2%
+      width: 13px
+      height: 13px
+
+.custom-list-2
+  list-style-type: none
+  padding-left: 0
+  
+  li
+    position: relative
+    padding-left: 1.4rem
+    
+    &::before
+      content: url('../assets/curso/bullets/icon3.svg')
+      position: absolute
+      left: 0
+      top: 2%
+      width: 13px
+      height: 13px
+
+.d-inline-block
+  display: inline-block !important
+
+.text-color-black
+  color: black !important
+
+.acordion__accion__btn--a
+  background: $color-acento-botones
+  border: 0
+  color: #fff
+
+// Accordion Styles
+.acordion__activo
+  background: #FBE9CC !important
+
+// Carousel Styles
+.carousel-bg .fas
+  &.fa-chevron-left, &.fa-chevron-right
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    width: 40px
+    height: 40px
+    background-color: $color-acento-botones
+    border-radius: 50%
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    color: #fff
+    font-size: 16px
+
+
+// Slider Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+  .slyder-f
+    &__main
+      width: 76%
+    &__btn
+      width: 12%
+
+@media screen and (max-width: $bp-max-xs)
+  .slyder-f
+    &__main
+      width: 60%
+    &__btn
+      width: 20%
+
+.text-color-black
+  color: black !important
+  strong 
+    color: black !important
+
+// .tarjeta--boton.bg-color-3:hover
+//   background-color: #E0ECF9 !important
+
+//   .bg-color-7
+//     background-color: #B4D1F0!important
+
+
+.tarjeta-avatar
+  padding-top: 35px
+  .tarjeta
+    padding-top: 35px !important
+
+#img-intro-2
+  width: 310px
+  position: absolute
+  bottom: -215px
+  right: -35px
+  @media screen and (max-width: $bp-min-xxl)
+    width: 340px
+    bottom: -235px
+  @media screen and (max-width: $bp-min-xl)
+    bottom: -205px
+  @media screen and (max-width: $bp-min-lg)
+    display: none
+
+.tabs-a__tab
+  background: #E8F5D5
+
+.tabla-a table 
+  min-width: 100% !important
