@@ -188,13 +188,24 @@
     .titulo-tres.mb-4(data-aos="flip-up").mb-5
       h4 Adecuación de vegetales 
 
-    p(data-aos='fade-left').mb-5 Las partes de las verduras destinadas al consumo humano crecen en o cerca del suelo, por lo que su lavado es indispensable antes de ser procesadas. Esto elimina agentes contaminantes como tierra y microorganismos. Se recomienda utilizar agua tibia para facilitar la eliminación de la tierra adherida a la superficie, y, en ocasiones, es necesario el uso de cepillos para lavar los vegetales. 
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-8(data-aos='fade-left')
+        .bg-color-3.p-4.h-100
+          p.mb-0.mt-lg-3 Las partes de las verduras destinadas al consumo humano crecen en o cerca del suelo, por lo que su lavado es indispensable antes de ser procesadas. Esto elimina agentes contaminantes como tierra y microorganismos. Se recomienda utilizar agua tibia para facilitar la eliminación de la tierra adherida a la superficie, y, en ocasiones, es necesario el uso de cepillos para lavar los vegetales. 
+      .col-lg-4(data-aos='fade-right')
+        img(src='@/assets/curso/tema1/30.png', alt='', style='max-width: 100%').mx-auto.d-none.d-lg-block
 
 
     .titulo-tres.mb-4(data-aos="flip-up").mb-5
       h4 Métodos de cocción 
 
-    p(data-aos='fade-left').mb-5  Las verduras se cocinan para modificar su textura y sabor, además de eliminar los microorganismos presentes en su superficie. Varios factores influyen en la elección del método de cocción, entre ellos la temperatura. A mayor temperatura, se produce la desnaturalización de algunos compuestos, como las vitaminas y minerales de las verduras. 
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-8(data-aos='fade-left')
+        .bg-color-3.p-4.h-100
+          p.mb-0.mt-lg-3 Las verduras se cocinan para modificar su textura y sabor, además de eliminar los microorganismos presentes en su superficie. Varios factores influyen en la elección del método de cocción, entre ellos la temperatura. A mayor temperatura, se produce la desnaturalización de algunos compuestos, como las vitaminas y minerales de las verduras. 
+      .col-lg-4(data-aos='fade-right')
+        img(src='@/assets/curso/tema1/31.png', alt='', style='max-width: 100%').mx-auto.d-none.d-lg-block
+
 </template>
 
 <script>

@@ -37,6 +37,9 @@
             img(src="@/assets/curso/intro/6.svg", style="max-width: 85px").me-2
             img(src="@/assets/curso/intro/7.svg", style="max-width: 85px").me-2
   
+
+
+
   </template>
 
 <script>

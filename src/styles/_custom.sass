@@ -110,7 +110,10 @@
     background-color: #62724A
   &-12
     background-color: #FEF6E4
-
+  &-13
+    background-color: #F1CDCD
+  &-14
+    background-color: #F6F6F6
   &-acento-botones
     background-color: $color-acento-botones
     color: white
@@ -149,6 +152,15 @@
     background-position: top
   &-9
     background-image: url("../assets/curso/bg/bg9.png") !important
+    background-position: top
+  &-10
+    background-image: url("../assets/curso/bg/bg10.png") !important
+    background-position: top
+  &-11
+    background-image: url("../assets/curso/bg/bg11.png") !important
+    background-position: top
+  &-12
+    background-image: url("../assets/curso/bg/bg12.png") !important
     background-position: top
   &-slyder
     background-image: url("../assets/curso/bg/bg-slider.png") !important
@@ -400,3 +412,57 @@ $custom-card-img-height: 116px
 
 .tabla-a table 
   min-width: 100% !important
+
+.tabla-a table thead th
+  background-color: #C6E697 !important
+
+.tabla-a table 
+  tbody
+    tr:nth-child(odd)
+      background-color: #F6F6F6
+    tr:nth-child(even)
+      background-color: #E6E6E6
+    td:nth-child(1), th:last-child
+      border-right: 1px solid #AFAFAF !important
+    td:nth-child(2)
+      border-right: 1px solid #AFAFAF !important
+    td:last-child, th:last-child
+      border-left: 1px solid #AFAFAF !important
+  thead
+    border-top: none !important
+    th:nth-child(1), th:nth-child(2)
+      border-right: 1px solid #AFAFAF !important
+
+.linea-tiempo-d__item  
+  .tarjeta--gris
+    background-color: #E8F5D5 !important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+  background-color: #FEEEC9
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected 
+  .tarjeta--gris
+    background-color: #FEEEC9 !important
+
+.lista-ul
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ul--color
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ol--cuadro
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem

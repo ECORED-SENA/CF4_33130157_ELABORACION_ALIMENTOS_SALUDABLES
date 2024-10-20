@@ -55,7 +55,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Carotenoides',
+        titulo: 'Elaboración de productos a base de frutas y verduras',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -89,30 +89,6 @@ export default {
             hash: 't_2_6',
           },
         ],
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Esteroles vegetales',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema4',
-        numero: '4',
-        titulo: 'Compuestos fenólicos o polifenoles',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        numero: '5',
-        titulo: 'Los ácidos grasos Omega 3, 6 y 9',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema6',
-        numero: '6',
-        titulo: 'La actividad física como factor clave para la salud',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -162,107 +138,116 @@ export default {
   },
   complementario: [
     {
-      tema: 'Componentes bioactivos',
+      tema: 'Frutas y hortalizas',
       referencia:
-        'Top Doctors LATAM (2023). Beneficios de los Compuestos Bioactivos. [Archivo de video] YouTube.',
+        'Bluecinnatte. (2019). ¿Cuál es la diferencia entre FRUTA, VERDURA, HORTALIZA y CEREAL? [Archivo de video] YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Nvoy0L9BgC0',
+      link: 'https://www.youtube.com/watch?v=MNw91ebIw1Q',
     },
     {
-      tema: 'Carotenoides',
+      tema: 'Escaldado',
       referencia:
-        'Instituto de Investigaciones Agrícolas | UCR (2019). ¿Qué son los carotenoides y porqué debemos incluirlos en nuestra dieta?. [Archivo de video] YouTube.',
+        'CanalCandido. (2012).Diferencia entre blanquear y escaldar. [Archivo de video] YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=hCOf1DFg5rM',
+      link: 'https://www.youtube.com/watch?v=xtI8OuspHBY',
     },
     {
-      tema: 'Esteroles vegetales',
+      tema: 'Encurtidos',
       referencia:
-        'xNutricion Clinica. (2023). FITOESTEROLES para BAJAR el COLESTEROL | Esteroles vegetales contra colesterol | Nutrición clínica. [Archivo de video] YouTube.',
+        'MeHueleAQuemao. (2017).Cómo hacer ENCURTIDOS CASEROS en VINAGRE [Archivo de video] YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=lUJWgiV9pZw',
+      link: 'https://www.youtube.com/watch?v=ndBnAp2jSCk',
     },
     {
-      tema: 'Los ácidos grasos Omega 3, 6 y 9',
+      tema: 'Salsa de tomate',
       referencia:
-        'Dr. Carlos Jaramillo (2021).11 Grandes Beneficios del OMEGA 3 | Dr. Carlos Jaramillo. [Archivo de video] YouTube.',
+        'Hogarmania. (2018). Cómo hacer SALSA DE TOMATE casera FÁCIL en 10 minutos con tomates naturales 🍅 Bruno Oteiza-Hogarmanía [Archivo de video] YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=qaP3ALloONE',
+      link: 'https://www.youtube.com/watch?v=4gns1ixgZ48',
     },
     {
-      tema: 'La actividad física como factor clave para la salud',
+      tema: 'Compotas',
       referencia:
-        'Aprendemos Juntos 2030. (2020). Los beneficios del ejercicio para tu cerebro. Wendy Suzuki, neurocientífica. [Archivo de video] YouTube.',
+        'Compotas (2020).Cómo hacer COMPOTA de PERA. Pear compote [Archivo de video] Youtube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=PXvz8zyuob0&t=9s',
+      link: 'https://www.youtube.com/watch?v=mIui0P5L_Ec',
+    },
+    {
+      tema: 'Bebida isotónica',
+      referencia:
+        'xNutricion Deportiva (2022). CÓMO HACER una BEBIDA ISOTÓNICA en CASA | Bebida rehidratante para deportistas | Nutrición deportiva [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=XMJ_z84uaOQ',
+    },
+    {
+      tema: 'Flan de frutas',
+      referencia:
+        'ElReceteo Canal (2014). El Receteo - Cómo hacer un flan de frutas [Receta] [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=wO1uuBxrHHQ',
     },
   ],
   glosario: [
     {
-      termino: 'Actividad física',
+      termino: 'Celulosa',
       significado:
-        'movimiento corporal que requiere gasto energético y aporta beneficios a la salud física y mental.',
+        'componente estructural en las plantas, responsable de la textura de frutas y verduras.',
     },
     {
-      termino: 'Antioxidantes',
+      termino: 'Compota',
       significado:
-        'sustancias que protegen las células del daño causado por los radicales libres.',
+        'producto obtenido de la concentración de la pulpa de frutas, especialmente para bebés o ancianos.',
     },
     {
-      termino: 'Carotenoides',
+      termino: 'Encurtido',
       significado:
-        'pigmentos naturales presentes en plantas, responsables de los colores amarillo, naranja y rojo.',
+        'técnica de conservación que consiste en sumergir alimentos en vinagre o salmuera.',
     },
     {
-      termino: 'Catequinas',
+      termino: 'Escaldado',
       significado:
-        'polifenoles presentes en el té verde que poseen propiedades antioxidantes y anticancerígenas.',
+        'método de cocción rápida en agua caliente para conservar color y nutrientes en los alimentos.',
     },
     {
-      termino: 'Fitoesteroles',
+      termino: 'Fécula',
       significado:
-        'compuestos vegetales que ayudan a reducir los niveles de colesterol en el cuerpo.',
+        'carbohidrato extraído de ciertos alimentos, utilizado como espesante en la preparación de alimentos.',
     },
     {
-      termino: 'LDL',
+      termino: 'Flavonoides',
       significado:
-        'lipoproteína de baja densidad, conocida como el "colesterol malo".',
+        'pigmentos solubles en agua que se encuentran en la savia de las células de frutas y verduras.',
     },
     {
-      termino: 'Omega-3',
+      termino: 'Licopeno',
       significado:
-        'ácido graso esencial que beneficia la salud cardiovascular y cerebral.',
+        'pigmento rojo presente en tomates y otras frutas, conocido por sus propiedades antioxidantes.',
     },
     {
-      termino: 'Omega-6',
+      termino: 'Madurez',
       significado:
-        'ácido graso poliinsaturado necesario para la función celular, pero su exceso puede ser perjudicial.',
+        'estado óptimo de desarrollo de las frutas y verduras para su recolección y consumo.',
     },
     {
-      termino: 'Omega-9',
+      termino: 'Pigmentos',
       significado:
-        'ácido graso monoinsaturado que ayuda a reducir el colesterol malo y mejorar el colesterol bueno.',
+        'compuestos que proporcionan color a frutas y verduras, como la clorofila y los carotenoides.',
     },
     {
-      termino: 'Polifenoles',
+      termino: 'Respiración',
       significado:
-        'antioxidantes presentes en alimentos que protegen las células del daño causado por radicales libres.',
+        'proceso biológico por el cual las frutas y verduras absorben oxígeno y liberan dióxido de carbono.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Begolla, O. y Granada, F. (2008). Bioactivos. Madrid, España: Subdirección General de Alimentos.',
+        'Charley, H. (2006). Tecnología de los alimentos. México: Noriega editores.',
       link: '',
     },
     {
       referencia:
-        'Boatella, J., Codoy, R. y López, A. (2010). Química y Bioquímica de los Alimentos. Barcelona, España. Ediciones de la Universidad de Barcelona.',
-      link: '',
-    },
-    {
-      referencia:
-        'Gil, A. y Ruiz, D. (2010). Tratado de nutrición. Madrid: Médica Panamericana.',
+        'Gallo, F. (1997). <em>Manual de fisiología, patología post-cosecha y control de calidad de las frutas y hortalizas.</em> Armenia, Colombia: Editores SENA regional Quindío.',
       link: '',
     },
   ],
@@ -301,7 +286,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Andrés Felipe Herrera',
+          nombre: 'Carlos Julián Ramírez Benítez',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
