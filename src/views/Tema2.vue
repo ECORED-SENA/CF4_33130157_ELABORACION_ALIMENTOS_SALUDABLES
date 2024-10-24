@@ -295,7 +295,7 @@
                 .col-lg-8.mb-4.mb-lg-0
                   .pe-4
                     h4 6. Adición de salmuera
-                    p.mt-4 Se añade la salmuera a los frascos, con una cantidad de 250 g por frasco.
+                    p.mt-4 Se añade la salmuera a los frascos, con una cantidad de 250 gr por frasco.
                 .col-lg-4
                   img(src='@/assets/curso/tema2/40.png', style="max-width: 412px").mx-auto
 

@@ -168,7 +168,7 @@ export default {
     {
       tema: 'Compotas',
       referencia:
-        'Compotas (2020).Cómo hacer COMPOTA de PERA. Pear compote [Archivo de video] Youtube.',
+        'Compotas (2020).Cómo hacer COMPOTA de PERA. Pear compote [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=mIui0P5L_Ec',
     },
@@ -293,11 +293,6 @@ export default {
         {
           nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],

@@ -10,7 +10,7 @@
     .bg-full-width.bg-fondo-1
       .px-4.px-md-5.pb-4
 
-        p(data-aos="fade-left").mb-4 Las frutas y hortalizas son especies vegetales que, tras su recolección, continúan su proceso de respiración, es decir, absorben oxígeno y emiten dióxido de carbono. Este proceso va acompañado de la transpiración, lo que provoca que, al almacenar estos productos, su superficie se humedezca debido a la liberación de agua desde las células internas. 
+        p(data-aos="fade-left").mb-4 Las frutas y hortalizas son especies vegetales que, tras su recolección, continúan su proceso de respiración, es decir, #[strong absorben oxígeno y emiten dióxido de carbono]. Este proceso va acompañado de la transpiración, lo que provoca que, al almacenar estos productos, #[strong su superficie se humedezca] debido a la liberación de agua desde las células internas. 
 
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
@@ -166,7 +166,7 @@
           img(src='@/assets/curso/tema1/27.png', alt='', style="max-width: 272px").mx-auto.mb-4
           .bg-color-11.d-inline-block.px-3.py-2.mb-3
             h5.text-center.mb-0.text-white #[strong Raíces]
-          p.text-center Zanahoria, rábano, remolacha, nabo 
+          p.text-center Zanahoria, rábano, remolacha, nabo.
 
 
     p(data-aos='fade-right').mb-4 #[strong Los componentes de las verduras son:]
