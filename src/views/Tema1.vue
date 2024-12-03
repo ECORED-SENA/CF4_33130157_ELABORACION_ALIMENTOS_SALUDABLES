@@ -19,7 +19,7 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 La madurez es un factor crucial para alcanzar las características deseadas en el producto. Por esta razón, las frutas y hortalizas deben ser recolectadas en el momento adecuado, evitando daños en la poscosecha. Si la recolección se hace de manera prematura, es decir, cuando el fruto está demasiado verde, puede sufrir modificaciones fisiológicas, aumentar su transpiración y generar una mala maduración durante el almacenamiento.
 
-        p(data-aos="fade-right").mb-5 #[strong Para determinar el momento óptimo de la cosecha, se utilizan los siguientes índices:]
+        p(data-aos="fade-right").mb-5 Para determinar el momento óptimo de la cosecha, se utilizan los siguientes índices:
 
         .carousel-bg.mb-4
           SlyderF(columnas="col-lg-6 col-xxl-4")(data-aos="zoom-in-up")
@@ -72,7 +72,7 @@
             img(src="@/assets/curso/tema1/12.svg")#img-intro-2
 
     p(data-aos='fade-right').mb-4 Las frutas pueden consumirse frescas, congeladas o secas, como ocurre con los frutos secos. 
-    p(data-aos='fade-right').mb-4 #[strong Los principales compuestos de las frutas son:]
+    p(data-aos='fade-right').mb-4 Los principales compuestos de las frutas son:
 
 
     .bg-full-width.bg-fondo-slyder(data-aos="fade-down").mb-5
@@ -83,7 +83,7 @@
               .col-lg-8.mb-4.mb-lg-0
                 .pe-4
                   h4 Agua
-                  p.mt-4 El contenido de agua en las frutas varía entre un 75% y un 90%, aunque este porcentaje puede cambiar. El agua se encuentra principalmente en las vacuolas y contiene sustancias solubles como azúcares, sales, ácidos orgánicos, pigmentos solubles y vitaminas.
+                  p.mt-4 El contenido de agua en las frutas varía entre un 75 % y un 90 %, aunque este porcentaje puede cambiar. El agua se encuentra principalmente en las vacuolas y contiene sustancias solubles como azúcares, sales, ácidos orgánicos, pigmentos solubles y vitaminas.
               .col-lg-4
                 img(src='@/assets/curso/tema1/13.png', style="max-width: 412px").mx-auto
 
@@ -169,7 +169,7 @@
           p.text-center Zanahoria, rábano, remolacha, nabo.
 
 
-    p(data-aos='fade-right').mb-4 #[strong Los componentes de las verduras son:]
+    p(data-aos='fade-right').mb-4 Los componentes de las verduras son:
 
 
     .tarjeta--container.row.mb-5

@@ -150,11 +150,11 @@
                       td 0.05
                       td 0.5
                     tr
-                      td #[strong Total]
-                      td #[strong 100 %]
-                      td #[strong 1000 gr]
+                      td Total
+                      td 100 %
+                      td 1000 gr
         
-          p.mb-4(data-aos="fade-left") #[em Nota:] Para hallar el total en gramos de la salmuera, se tomaron 1000 gr de este y se multiplicaron por cada uno de los porcentajes (%) de los ingredientes, para que por cada ingrediente diera el total en gramos. 
+          p.mb-4(data-aos="fade-left") Nota: para hallar el total en gramos de la salmuera, se tomaron 1000 gr de este y se multiplicaron por cada uno de los porcentajes (%) de los ingredientes, para que por cada ingrediente diera el total en gramos. 
           
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-6
@@ -202,9 +202,9 @@
                       td 12.5
                       td 187.5
                     tr
-                      td #[strong Total]
-                      td #[strong 100 %]
-                      td #[strong 1500 gr]
+                      td Total
+                      td 100 %
+                      td 1500 gr
 
 
           .titulo-tres.mb-4(data-aos="flip-up").mb-5
@@ -397,9 +397,9 @@
                       td 0.2 %
                       td 2 gr
                     tr
-                      td #[strong Total]
-                      td #[strong 100 %]
-                      td #[strong 1000 gr]
+                      td Total
+                      td 100 %
+                      td 1000 gr
 
       .titulo-tres.mb-4(data-aos="flip-up").mb-5
         h4 Cálculo
